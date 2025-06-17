@@ -183,6 +183,3 @@ def test_login_usuario_no_registrado(driver):
         assert not user_element.is_displayed()
     except NoSuchElementException:
         pass
-
-
-

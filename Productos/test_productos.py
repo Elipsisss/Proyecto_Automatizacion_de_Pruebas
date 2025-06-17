@@ -20,10 +20,6 @@ def driver():
     driver.quit()
 
 
-
-
-
-
 def test_precio_productos_mayor_a_cero(driver):
     print("Accediendo a la web")
     driver.get("https://www.demoblaze.com")
